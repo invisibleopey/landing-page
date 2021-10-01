@@ -84,6 +84,7 @@ main .cards {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2em;
+  margin-bottom: 2em;
 }
 .card {
   max-width: 200px;
@@ -91,6 +92,19 @@ main .cards {
 .cards span {
   display: flex;
   text-align: center;
+}
+main .testimonial {
+  background: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  padding: 1em 2em;
+}
+.testimonial .quote-author {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 700;
 }
 footer {
   display: flex;
