@@ -71,6 +71,27 @@ header img {
 main {
   flex: 1;
 }
+main h2 {
+  text-align: center;
+  color: #1f2937;
+}
+main img {
+  height: auto;
+  width: 200px;
+}
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.card {
+  max-width: 200px;
+}
+.cards span {
+  display: flex;
+  text-align: center;
+}
 footer {
   display: flex;
   justify-content: center;
