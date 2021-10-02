@@ -106,6 +106,33 @@ main .testimonial {
   flex-direction: row-reverse;
   font-weight: 700;
 }
+main .call-to-action {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action .action-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  background: #3882f6;
+  color: #e5e7eb;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.call-to-action h3 {
+  margin: 0;
+  padding: 0;
+}
+.call-to-action button {
+  background: #3882f6;
+  border: 1px solid #e5e7eb;
+  color: #e5e7eb;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+
 footer {
   display: flex;
   justify-content: center;
